@@ -14,3 +14,9 @@ SKRZYPOL
 		->	do panely operacji
 	
 	zad 2 
+
+-----------------------------------------------------------
+
+do wykonania
+
+	dodawanie ci¹gów z pliku
