@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KlientSR", "KlientSR\KlientSR.csproj", "{62C1C6C1-0E35-4BF6-B91E-06C7B07A55E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerwerSR", "SerwerSR\SerwerSR.csproj", "{9B596DB8-93D1-4266-9A9E-53B832A10794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogowanieSR", "LogowanieSR\LogowanieSR.csproj", "{0C4FA263-8DD0-4687-8D1A-3CE87FD0FEB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C1C6C1-0E35-4BF6-B91E-06C7B07A55E1}.Debug|x86.ActiveCfg = Debug|x86
+		{62C1C6C1-0E35-4BF6-B91E-06C7B07A55E1}.Debug|x86.Build.0 = Debug|x86
+		{62C1C6C1-0E35-4BF6-B91E-06C7B07A55E1}.Release|x86.ActiveCfg = Release|x86
+		{62C1C6C1-0E35-4BF6-B91E-06C7B07A55E1}.Release|x86.Build.0 = Release|x86
+		{9B596DB8-93D1-4266-9A9E-53B832A10794}.Debug|x86.ActiveCfg = Debug|x86
+		{9B596DB8-93D1-4266-9A9E-53B832A10794}.Debug|x86.Build.0 = Debug|x86
+		{9B596DB8-93D1-4266-9A9E-53B832A10794}.Release|x86.ActiveCfg = Release|x86
+		{9B596DB8-93D1-4266-9A9E-53B832A10794}.Release|x86.Build.0 = Release|x86
+		{0C4FA263-8DD0-4687-8D1A-3CE87FD0FEB0}.Debug|x86.ActiveCfg = Debug|x86
+		{0C4FA263-8DD0-4687-8D1A-3CE87FD0FEB0}.Debug|x86.Build.0 = Debug|x86
+		{0C4FA263-8DD0-4687-8D1A-3CE87FD0FEB0}.Release|x86.ActiveCfg = Release|x86
+		{0C4FA263-8DD0-4687-8D1A-3CE87FD0FEB0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
