@@ -30,6 +30,7 @@ namespace LogowanieSR
         {
             if(rejestracja == true)
             {
+                MessageBox.Show("Rejestracja przebiegła poprawnie!");
                 tabLogowanie.Show();
             }
         }
