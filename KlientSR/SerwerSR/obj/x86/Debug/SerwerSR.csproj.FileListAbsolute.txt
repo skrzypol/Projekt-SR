@@ -17,3 +17,5 @@ C:\Users\Konar\Documents\Visual Studio 2010\Projects\KlientSR\SerwerSR\obj\x86\D
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\KlientSR\SerwerSR\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\KlientSR\SerwerSR\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\KlientSR\SerwerSR\bin\Debug\msgserver.dll
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.exe
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.pdb

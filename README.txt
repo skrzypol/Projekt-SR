@@ -10,10 +10,12 @@ SKRZYPOL
 	
 	zad 1 
 		dodac przejscia z panelu logowania
-		->	do panelu rejestracji
-		->	do panely operacji
+		->	do panelu rejestracji (ZROBIONE) - problem z prza³¹czeniem paneli!!!
+		->	do panely operacji (ZROBIONE)
 	
 	zad 2 
+        ->  sprawdzenie autoryzacji u¿ytkownika -> przejœcie do logowania i wyœwietlenie komunikatu
+        ->  sprawdzenie autoryzacji uzytkownika -> przejsæie do programu g³ownego
 
 -----------------------------------------------------------
 

@@ -16,3 +16,12 @@ C:\Users\Konar\Documents\Visual Studio 2010\Projects\KlientSR\LogowanieSR\obj\x8
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.exe
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.pdb
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.exe
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.pdb
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\bin\Debug\LogowanieSR.exe
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\bin\Debug\LogowanieSR.pdb
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.Form1.resources
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.Properties.Resources.resources
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.write.1.tlog
