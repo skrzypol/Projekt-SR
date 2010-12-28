@@ -5,6 +5,9 @@ KONAR
 
 	zad 2
 		dodac algorytmy sortowania
+        
+    zad 3
+        komunikaty u¿yte w projekcie 
 
 SKRZYPOL	
 	
@@ -16,6 +19,9 @@ SKRZYPOL
 	zad 2 
         ->  sprawdzenie autoryzacji u¿ytkownika -> przejœcie do logowania i wyœwietlenie komunikatu
         ->  sprawdzenie autoryzacji uzytkownika -> przejsæie do programu g³ownego
+        
+    zad 3
+        ->  zmienic ekran logowania i rejestracji na osobne okna?
 
 -----------------------------------------------------------
 

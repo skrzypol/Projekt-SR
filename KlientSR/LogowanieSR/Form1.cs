@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
+using System.Xml;
 
 namespace LogowanieSR
 {
@@ -30,6 +32,7 @@ namespace LogowanieSR
         {
             if(rejestracja == true)
             {
+
                 MessageBox.Show("Rejestracja przebiegła poprawnie!");
                 tabLogowanie.Show();
             }
