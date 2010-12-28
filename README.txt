@@ -22,6 +22,13 @@ SKRZYPOL
         
     zad 3
         ->  zmienic ekran logowania i rejestracji na osobne okna?
+        
+    zad 4
+        ->  dodawanie u¿ytkowników do pliku xml (ZROBIONE)
+        ->  sprawdzanie dostêpnoœci nazwy u¿ytkownika
+        ->  usuwanie u¿ytkownika z pliku xml
+        ->  sprawdzanie has³a = powtórz has³o
+        
 
 -----------------------------------------------------------
 Pytania:
