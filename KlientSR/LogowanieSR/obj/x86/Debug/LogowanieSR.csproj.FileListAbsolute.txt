@@ -21,7 +21,7 @@ E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x8
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\bin\Debug\LogowanieSR.exe
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\bin\Debug\LogowanieSR.pdb
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.Form1.resources
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.Properties.Resources.resources
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.read.1.tlog
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.Form_log.resources
