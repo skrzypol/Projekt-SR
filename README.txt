@@ -26,8 +26,8 @@ SKRZYPOL
     zad 4
         ->  dodawanie u¿ytkowników do pliku xml (ZROBIONE)
         ->  sprawdzanie dostêpnoœci nazwy u¿ytkownika
-        ->  usuwanie u¿ytkownika z pliku xml
-        ->  sprawdzanie has³a = powtórz has³o
+        ->  usuwanie u¿ytkownika z pliku xml - moze lepiej poprzez edycje pliku xml?
+        ->  sprawdzanie has³a = powtórz has³o (ZROBIONE)
         
 
 -----------------------------------------------------------
