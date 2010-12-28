@@ -14,7 +14,7 @@ SKRZYPOL
 	zad 1 
 		dodac przejscia z panelu logowania
 		->	do panelu rejestracji (ZROBIONE) - problem z prza³¹czeniem paneli!!!
-		->	do panely operacji (ZROBIONE) - uruchomienie innego procesu - problem!!!
+		->	do panely operacji (ZROBIONE)
 	
 	zad 2 
         ->  sprawdzenie autoryzacji u¿ytkownika -> przejœcie do logowania i wyœwietlenie komunikatu
@@ -39,3 +39,5 @@ Pytania:
 do wykonania
 
 	dodawanie ci¹gów z pliku
+    autoryzacja
+    
