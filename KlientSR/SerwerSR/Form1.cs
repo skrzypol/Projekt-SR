@@ -285,7 +285,8 @@ namespace SerwerSR
 
         private void button7_Click_1(object sender, EventArgs e)
         {
-            
+            textBox4.Clear();
+            richTextBox3.Clear();
             
             abcd.Abort();
             _odbieranie.Abort();
