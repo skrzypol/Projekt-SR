@@ -20,7 +20,7 @@ namespace KlientSR
             DialogResult = DialogResult.Cancel;
         }
         public Wiadomosci mm = null;
-        public bool zatw = false;
+        public bool zatw = false; 
         public string login;
         private void button2_Click(object sender, EventArgs e)
         { HttpChannel d = new HttpChannel();

@@ -144,7 +144,7 @@ namespace KlientSR
                 wyswietlLog("OD: " + login + "\tDO: " + odbiorca + "\nposortuj:\n" + liczby+"\n\n");
                 mm.nadajWiadomosc("posortuj", login, odbiorca, liczby, 0,0);
         }
-
+         
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             Bufor s;
