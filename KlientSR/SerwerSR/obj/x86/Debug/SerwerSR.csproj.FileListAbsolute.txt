@@ -30,3 +30,5 @@ C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\Serwer
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\SerwerSR\bin\Debug\SerwerSR.pdb
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR2\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.exe
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR2\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.pdb
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.exe
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.pdb
