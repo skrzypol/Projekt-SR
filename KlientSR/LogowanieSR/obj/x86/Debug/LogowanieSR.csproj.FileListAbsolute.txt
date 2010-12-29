@@ -25,3 +25,9 @@ E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x8
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.read.1.tlog
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.Form_log.resources
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.exe
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.pdb
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\LogowanieSR\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\LogowanieSR\obj\x86\Debug\LogowanieSR.Properties.Resources.resources
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\LogowanieSR\obj\x86\Debug\GenerateResource.write.1.tlog

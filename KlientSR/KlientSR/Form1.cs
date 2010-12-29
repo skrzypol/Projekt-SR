@@ -21,29 +21,16 @@ namespace KlientSR
     {
         string plik = "";
         Wiadomosci mm;
-        public Form1()
+        public Form1(String Login,Wiadomosci polaczenie)
         {
-            InitializeComponent(); 
-
+            InitializeComponent();
+            mm = polaczenie;
+            login = Login;
+            backgroundWorker1.RunWorkerAsync();
             
         }
         //---mechanizm sprawdzania liczbe/litera - usuwa litery
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                int pozycja = richTextBox1.SelectionStart;
-                string input = richTextBox1.Text;
-                Match match = Regex.Match(input, @"^([0-9\n]*)$");
-                if (!match.Success) 
-                {
-                    richTextBox1.Text = input.Remove(pozycja - 1, 1);
-                    richTextBox1.SelectionStart = pozycja - 1;
-                }
-            }
-            catch { }
-        }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             if (richTextBox1.Text != "")
@@ -111,10 +98,11 @@ namespace KlientSR
             liczbyO = "";
             Random random = new Random();
             int imax = int.Parse(textBox4.Text);
+            int jmax = int.Parse(textBox1.Text);
             //int tmp2 = int.Parse(random.Next(100/*int.MaxValue*/ ).ToString());
             for (int i = 0; i < imax; i++)
             {
-                for (int j = 0; j < int.Parse(textBox1.Text); j++)
+                for (int j = 0; j < jmax; j++)
                 {
                     liczbyO+= random.Next(10).ToString();
                 }
@@ -122,6 +110,7 @@ namespace KlientSR
     
                     liczbyO += " ";
             }
+            richTextBox1.Text = liczbyO;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -151,8 +140,9 @@ namespace KlientSR
         private void button3_Click(object sender, EventArgs e)
         {
                 string odbiorca = "Server";
-                wyswietlLog("OD: " + login + "\tDO: " + odbiorca + "\nposortuj:\n" + liczbyO+"\n\n");
-                mm.nadajWiadomosc("posortuj", login, odbiorca, liczbyO, 0,0);
+                string liczby = richTextBox1.Text;
+                wyswietlLog("OD: " + login + "\tDO: " + odbiorca + "\nposortuj:\n" + liczby+"\n\n");
+                mm.nadajWiadomosc("posortuj", login, odbiorca, liczby, 0,0);
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
@@ -240,15 +230,7 @@ namespace KlientSR
         private void button6_Click(object sender, EventArgs e)
         {
 
-            HttpChannel d = new HttpChannel();
-            ChannelServices.RegisterChannel(d);
-
-            mm = (Wiadomosci)Activator.GetObject(typeof(SimpleConection.Wiadomosci),
-                                                "http://"+textBox2.Text+":3000/Polaczenie");
-            login = textBox5.Text;
-
-            mm.logowanie(login, "lala");
-            backgroundWorker1.RunWorkerAsync();
+            
         }
 
 
