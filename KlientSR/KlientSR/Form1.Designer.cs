@@ -39,9 +39,6 @@
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -101,10 +98,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(558, 30);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(106, 17);
+            this.radioButton2.Size = new System.Drawing.Size(84, 17);
             this.radioButton2.TabIndex = 5;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Przez wstawianie";
+            this.radioButton2.Text = "Kopcowanie";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
@@ -113,10 +110,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(445, 53);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(82, 17);
+            this.radioButton3.Size = new System.Drawing.Size(80, 17);
             this.radioButton3.TabIndex = 6;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Przez wybór";
+            this.radioButton3.Text = "Wstawianie";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton4
@@ -124,10 +121,10 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(558, 53);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(93, 17);
+            this.radioButton4.Size = new System.Drawing.Size(66, 17);
             this.radioButton4.TabIndex = 7;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Przez scalanie";
+            this.radioButton4.Text = "Scalanie";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton5
@@ -146,10 +143,10 @@
             this.radioButton6.AutoSize = true;
             this.radioButton6.Location = new System.Drawing.Point(558, 76);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(67, 17);
+            this.radioButton6.Size = new System.Drawing.Size(78, 17);
             this.radioButton6.TabIndex = 9;
             this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Stogowe";
+            this.radioButton6.Text = "Wybieranie";
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // radioButton7
@@ -157,44 +154,11 @@
             this.radioButton7.AutoSize = true;
             this.radioButton7.Location = new System.Drawing.Point(445, 99);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(94, 17);
+            this.radioButton7.Size = new System.Drawing.Size(48, 17);
             this.radioButton7.TabIndex = 10;
             this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Przez zliczanie";
+            this.radioButton7.Text = "Shell";
             this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(558, 99);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(80, 17);
-            this.radioButton8.TabIndex = 11;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Kubełkowe";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(445, 122);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(73, 17);
-            this.radioButton9.TabIndex = 12;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Pozycyjne";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(558, 123);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(82, 17);
-            this.radioButton10.TabIndex = 13;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Biblioteczne";
-            this.radioButton10.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -340,9 +304,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.radioButton10);
-            this.Controls.Add(this.radioButton9);
-            this.Controls.Add(this.radioButton8);
             this.Controls.Add(this.radioButton7);
             this.Controls.Add(this.radioButton6);
             this.Controls.Add(this.radioButton5);
@@ -374,9 +335,6 @@
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.RadioButton radioButton10;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
