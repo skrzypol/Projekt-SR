@@ -142,9 +142,9 @@ namespace KlientSR
                 string odbiorca = "Server";
                 string liczby = richTextBox1.Text;
                 wyswietlLog("OD: " + login + "\tDO: " + odbiorca + "\nposortuj:\n" + liczby+"\n\n");
-                mm.nadajWiadomosc("posortuj", login, odbiorca, liczby, 0,0);
+                mm.nadajWiadomosc("posortuj", login, odbiorca, liczby, _sortowanie,0);
         }
-         
+        Sortowanie sort = new Sortowanie(); 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             Bufor s;
@@ -165,7 +165,37 @@ namespace KlientSR
                         if (s.Wiadomosc == "sortuj" && s.Posortuj != null)
                         {
                             ArrayList a = Posortuj;
-                            a.Sort();
+                            if (a != null)
+                            {
+                                if (s.Id_alg == 0)
+                                {
+                                    a = sort.sortBubble(a);
+                                }
+                                else if (s.Id_alg == 1)
+                                {
+                                    a = sort.sortHeap(a);
+                                }
+                                else if (s.Id_alg == 2)
+                                {
+                                    a = sort.sortInsertion(a);
+                                }
+                                else if (s.Id_alg == 3)
+                                {
+                                    a = sort.sortMerge(a);
+                                }
+                                else if (s.Id_alg == 4)
+                                {
+                                    a = sort.sortQuick(a);
+                                }
+                                else if (s.Id_alg == 5)
+                                {
+                                    a = sort.sortSelection(a);
+                                }
+                                else if (s.Id_alg == 6)
+                                {
+                                    a = sort.sortShell(a);
+                                }
+                            }
                             //s.Posortuj.Sort();
                             
                             mm.nadajWiadomosc("posortowano", s.Odbiorca, "Server", getString(a), 0, s.blok);
@@ -215,15 +245,15 @@ namespace KlientSR
         string getString(ArrayList dane)
         {
             string lista = "";
-            if(dane!=null)
-            if (dane.Count > 0)
-            {
-                for (int i = 0; i < dane.Count; i++)
+            if (dane != null)
+                if (dane.Count > 0)
                 {
-                    lista += (string)dane[i] + " ";
+                    for (int i = 0; i < dane.Count; i++)
+                    {
+                        lista += (string)dane[i] + " ";
+                    }
+                    return lista;
                 }
-                return lista;
-            }
             return "";
         }
 
@@ -235,9 +265,39 @@ namespace KlientSR
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-
+            _sortowanie = 1;
         }
 
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            _sortowanie = 0;
+        }
+        int _sortowanie;
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            _sortowanie = 2;
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            _sortowanie = 3;
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            _sortowanie = 4;
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            _sortowanie = 5;
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            _sortowanie = 6;
+        }
 
     }
 }

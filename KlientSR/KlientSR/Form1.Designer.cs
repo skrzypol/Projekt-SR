@@ -92,6 +92,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Bąbelkowe";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -115,6 +116,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Wstawianie";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -126,6 +128,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Scalanie";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton5
             // 
@@ -137,6 +140,7 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "\"Szybkie\"";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton6
             // 
@@ -148,6 +152,7 @@
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "Wybieranie";
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
             // radioButton7
             // 
@@ -159,6 +164,7 @@
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "Shell";
             this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
             // 
             // button4
             // 
