@@ -23,7 +23,8 @@ namespace KlientSR
         public bool zatw = false; 
         public string login;
         private void button2_Click(object sender, EventArgs e)
-        { HttpChannel d = new HttpChannel();
+        {   
+            HttpChannel d = new HttpChannel();
             try
             {
                
@@ -45,6 +46,38 @@ namespace KlientSR
             }
             catch {
                 MessageBox.Show("błedny adres lub port serwera");
+                //ChannelServices.UnregisterChannel(d);
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            HttpChannel d = new HttpChannel();
+            try
+            {
+
+                ChannelServices.RegisterChannel(d);
+
+
+
+                mm = (Wiadomosci)Activator.GetObject(typeof(SimpleConection.Wiadomosci),
+                    "http://" + textBox5.Text + ":" + (textBox9.Text.Length == 0 ? "3000" : textBox9.Text) + "/Polaczenie");
+                login = textBox7.Text;
+                string haslo = maskedTextBox2.Text;
+                if (maskedTextBox2.Text == maskedTextBox3.Text)
+                    if (mm.rejestracja(login, haslo))
+                    {
+                        zatw = true;
+                        DialogResult = DialogResult.OK;
+                        mm.logowanie(login, haslo);
+                    }
+                    else { MessageBox.Show("login juz istnije"); throw new Exception(); } 
+                else{ MessageBox.Show("zle hasla"); throw new Exception(); }
+                //backgroundWorker1.RunWorkerAsync();
+            }
+            catch
+            {
+                //MessageBox.Show("błedny adres lub port serwera");
                 ChannelServices.UnregisterChannel(d);
             }
         }

@@ -32,3 +32,11 @@ E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR2\Projekt-SR\KlientSR\Serwer
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR2\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.pdb
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.exe
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.pdb
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\bin\Debug\SerwerSR.exe
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\bin\Debug\SerwerSR.pdb
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.Form1.resources
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\SerwerSR.Properties.Resources.resources
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\SerwerSR\bin\Debug\msgserver.dll
