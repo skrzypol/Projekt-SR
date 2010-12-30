@@ -50,7 +50,7 @@ namespace KlientSR
             {
                 dane = tab[k].ToString();
                 dl2 = dane.Length;
-                for (int l = dl2; l <= dl; l++)
+                for (int l = dl2; l < dl; l++)
                     dane = "0" + dane;
                 lista.Add(dane);
             }
@@ -95,7 +95,7 @@ namespace KlientSR
             {
                 dane = tab[k].ToString();
                 dl2 = dane.Length;
-                for (int l = dl2; l <= dl; l++)
+                for (int l = dl2; l < dl; l++)
                     dane = "0" + dane;
                 lista.Add(dane);
             }
@@ -139,7 +139,7 @@ namespace KlientSR
             {
                 dane = tab[k].ToString();
                 dl2 = dane.Length;
-                for (int l = dl2; l <= dl; l++)
+                for (int l = dl2; l < dl; l++)
                     dane = "0" + dane;
                 lista.Add(dane);
             }
@@ -167,7 +167,7 @@ namespace KlientSR
             {
                 dane = tab[k].ToString();
                 dl2 = dane.Length;
-                for (int l = dl2; l <= dl; l++)
+                for (int l = dl2; l < dl; l++)
                     dane = "0" + dane;
                 lista.Add(dane);
             }
@@ -193,7 +193,7 @@ namespace KlientSR
             {
                 dane = tab[k].ToString();
                 dl2 = dane.Length;
-                for (int l = dl2; l <= dl; l++)
+                for (int l = dl2; l < dl; l++)
                     dane = "0" + dane;
                 lista.Add(dane);
             }
@@ -237,7 +237,7 @@ namespace KlientSR
             {
                 dane = tab[k].ToString();
                 dl2 = dane.Length;
-                for (int l = dl2; l <= dl; l++)
+                for (int l = dl2; l < dl; l++)
                     dane = "0" + dane;
                 lista.Add(dane);
             }
@@ -296,7 +296,7 @@ namespace KlientSR
             {
                 dane = tab[k].ToString();
                 dl2 = dane.Length;
-                for (int l = dl2; l <= dl; l++)
+                for (int l = dl2; l < dl; l++)
                     dane = "0" + dane;
                 lista.Add(dane);
             }

@@ -196,13 +196,17 @@ namespace KlientSR
                                     a = sort.sortShell(a);
                                 }
                             }
-                            //s.Posortuj.Sort();
+                            ////s.Posortuj.Sort();
                             
                             mm.nadajWiadomosc("posortowano", s.Odbiorca, "Server", getString(a), 0, s.blok);
                         }
                         if (s.Wiadomosc == "posortowano" && s.Posortuj != null)
                         {
                             mm.nadajWiadomosc("odebrano", s.Odbiorca, "Server", "", 0, 0);
+                        }
+                        if (s.Wiadomosc == "wylaczono" )
+                        {
+                            button3.Enabled = false;
                         }
                     }
                 }

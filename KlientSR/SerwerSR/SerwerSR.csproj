@@ -36,7 +36,7 @@
   <ItemGroup>
     <Reference Include="msgserver, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\nauka\skrzypol\edit\msgserver.dll</HintPath>
+      <HintPath>..\..\..\Projekt-SR2\msgserver.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

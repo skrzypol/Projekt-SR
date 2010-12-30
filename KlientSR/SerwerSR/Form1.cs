@@ -164,10 +164,13 @@ namespace SerwerSR
                         if (licz == bloki.Length) koniec = true;
                     }while(!koniec);
                     string dane2 = "";
-                    for(int i=0;i<bloki.Length;i++){
-                        for(int j=0;j<bloki[i].elementy.Count;j++){
-                            dane2 += (string)bloki[i].elementy[j]+" ";
-                        }
+                    for (int i = 0; i < bloki.Length; i++)
+                    {
+                        if (bloki[i] != null)
+                            for (int j = 0; j < bloki[i].elementy.Count; j++)
+                            {
+                                dane2 += (string)bloki[i].elementy[j] + " ";
+                            }
                     }
 
                     //wyslac i usunac 

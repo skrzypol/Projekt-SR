@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="windows-1250"?>
-<!DOCTYPE USERS[ 
-  <!ELEMENT USERS (USER)+> 
-        <!ELEMENT USER (LOGIN,PASS)> 
-        <!ELEMENT LOGIN (#PCDATA)> 
-        <!ELEMENT PASS (#PCDATA)> 
-]>
-<USERS>
-  <USER>
-    <LOGIN>ripper</LOGIN>
-    <PASS>ripper</PASS>
-  </USER>
-</USERS>
+﻿<?xml version="1.0" encoding="utf-8"?><users><user><Login>dawid</Login><Haslo>dawid</Haslo></user></users>

@@ -2,6 +2,13 @@ using System;
 using System.Collections;
 using System.Reflection;
 using System.Threading;
+using System.Xml;
+using System.IO;
+using System.Text;
+using System.Windows.Forms;
+
+
+
 namespace SimpleConection
 {
     public class Wiadomosci : MarshalByRefObject
@@ -11,10 +18,47 @@ namespace SimpleConection
         public Wiadomosci()
         {
 
-            Urzytkownicy.Add(new Uzytkownik("dawid","lala"));
-            Urzytkownicy.Add(new Uzytkownik("konar", "lala"));
-            Urzytkownicy.Add(new Uzytkownik("ripper", "lala"));
-            Urzytkownicy.Add(new Uzytkownik("admin", "lala"));
+            twListyUz();
+        }
+
+
+        void twListyUz()
+        {
+            try
+            {
+                string login = "";
+                string haslo = "";
+                XmlTextReader textReader = new XmlTextReader("uzytkownicy.xml");
+                string sekwencja = "";
+
+                while (textReader.Read())
+                {
+
+                    XmlNodeType nType = textReader.NodeType;
+                    if (nType == XmlNodeType.Text)
+                    {
+                        if (sekwencja.ToLower() == "login")
+                            login = textReader.Value.ToString();
+                        if (sekwencja.ToLower() == "haslo")
+                        {
+                            haslo = textReader.Value.ToString();
+                            Urzytkownicy.Add(new Uzytkownik(login, haslo));
+                        }
+                    }
+
+                    // if node type is an element
+
+                    if (nType == XmlNodeType.Element)
+                    {
+                        sekwencja = textReader.Name.ToString();
+                    }
+
+
+
+                }
+            }
+            catch { }
+           
         }
 
         //uwerzytelnienie
@@ -40,6 +84,22 @@ namespace SimpleConection
             return false;
         }
 
+        public bool rejestracja(String login, String haslo)
+        {
+            Uzytkownik a;
+            for (int i = 0; i < Urzytkownicy.Count; i++)
+            {
+                a = (Uzytkownik)Urzytkownicy[i];
+                if (a.Login == login)
+                {
+                    return false;
+                }
+            }
+            
+            Urzytkownicy.Add(new Uzytkownik(login, haslo));
+            
+            return true;
+        }
 
         // Metoda ³¹czy wszystkie wiadomoœci i zwraca klientowi zawieraj¹cy je ci¹g znaków
         public bool aktywny(String odbiorca)
@@ -175,16 +235,42 @@ namespace SimpleConection
 
         public void rozlaczServer()
         {
+            FileStream fs;
+            XmlWriter w;
+
+            fs = new FileStream("uzytkownicy.xml", FileMode.Create);
+            w = XmlWriter.Create(fs);
+            w.WriteStartDocument();
+            w.WriteStartElement("users");
+
+
+
+
             Uzytkownik a;
             for (int i = 0; i < Urzytkownicy.Count; i++)
             {
                 a = (Uzytkownik)Urzytkownicy[i];
                 if (a.Aktywny)
                 {
-                    nadajWiadomosc("wylaczono", "Server", a.Login, null, 0,0);
+                    nadajWiadomosc("wylaczono", "Server", a.Login, null, 0, 0);
+                }
+                {
+                    w.WriteStartElement("user");
+                    w.WriteElementString("Login", a.Login);
+                    w.WriteElementString("Haslo", a.Haslo);
+                    w.WriteEndElement();
+
+                    
+
                 }
             }
+            w.WriteEndElement();
+            w.WriteEndDocument();
+            w.Flush();
+            fs.Close();
             Thread.Sleep(1000);
+            
+
         }
 
         public void rozlaczClient(string nadawca)

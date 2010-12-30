@@ -14,6 +14,7 @@ E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\KlientSR\bin\Debug
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\KlientSR\bin\Debug\KlientSR.pdb
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\ResolveAssemblyReference.cache
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\KlientSR.Form1.resources
+E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\LogowanieSR.Form_log.resources
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\KlientSR.Logowanie.resources
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\KlientSR.Properties.Resources.resources
 E:\STUDIA\SEMSETR VII\SR - projekt\GitHub\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\GenerateResource.read.1.tlog
@@ -30,3 +31,14 @@ C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\Klient
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\KlientSR\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\KlientSR\obj\x86\Debug\KlientSR.exe
 C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR2\KlientSR\KlientSR\obj\x86\Debug\KlientSR.pdb
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\bin\Debug\KlientSR.exe
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\bin\Debug\KlientSR.pdb
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\KlientSR.Form1.resources
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\KlientSR.Logowanie.resources
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\KlientSR.Properties.Resources.resources
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\KlientSR.exe
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\obj\x86\Debug\KlientSR.pdb
+C:\Users\Konar\Documents\Visual Studio 2010\Projects\Projekt-SR\KlientSR\KlientSR\bin\Debug\msgserver.dll
