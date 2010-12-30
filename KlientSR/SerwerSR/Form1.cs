@@ -173,6 +173,7 @@ namespace SerwerSR
                             }
                     }
 
+
                     //wyslac i usunac 
                     mm.nadajWiadomosc("posortowano", "Server", (string)dokogo[doposortowania.Count - 1], dane2, 0, 0);
                     dokogo.RemoveAt(doposortowania.Count - 1);
